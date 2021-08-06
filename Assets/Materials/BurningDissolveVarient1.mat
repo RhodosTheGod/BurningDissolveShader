@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: BurningDissolveVarient1
+  m_Shader: {fileID: 4800000, guid: d8a62be13b7c39d4cb3f65613ac02be9, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 1
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Distortion:
+        m_Texture: {fileID: 2800000, guid: 057314f02750b5c44acd41ce036b0a55, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: b2b44f20e19feca4f9af773ae1eba368, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Mask:
+        m_Texture: {fileID: 2800000, guid: 3f36d718e1d39914db3c18e18d6636bf, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Burn: 0
+    - _BurnDirX: 0
+    - _BurnDirY: 1
+    - _Contrast: 4.3
+    - _Dissolve: 0.36
+    - _DistortionAmount: 1
+    - _Float: 1
+    - _Glossiness: 0.5
+    - _HeatWave: 0.04
+    - _Metallic: 0
+    - _ScrollSpeed: 0.37
+    m_Colors:
+    - _Color: {r: 0.4745098, g: 1, b: 1, a: 1}
+    - _Hot: {r: 0.6698113, g: 0.32045877, b: 0, a: 1}
+    - _Warm: {r: 1, g: 0.69491327, b: 0, a: 1}
+  m_BuildTextureStacks: []
